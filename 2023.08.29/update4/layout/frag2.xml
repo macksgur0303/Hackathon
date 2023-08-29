@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/main_flame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/page_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/page4" />
+
+        <Button
+            android:id="@+id/btn_main_pf5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="45dp"
+            android:background="#00ff0000"
+            android:text="아 섹스 존나 마렵다"
+            android:textColor="#00ff0000" />
+
+    </FrameLayout>
+</LinearLayout>
