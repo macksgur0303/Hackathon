@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/main_flame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/page_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/page5" />
+
+        <Button
+            android:id="@+id/btn_ct2"
+            android:background="#00ff0000"
+            android:layout_width="match_parent"
+            android:layout_height="410dp"
+            android:text="김유하 이 씹년~"
+            android:textColor="#00ff0000"/>
+
+        <Button
+            android:id="@+id/btn_ct3"
+            android:background="#00ff0000"
+            android:layout_width="330dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="645dp"
+            android:text="김유하 이 씹년~"
+            android:textColor="#00ff0000"/>
+
+
+    </FrameLayout>
+</LinearLayout>

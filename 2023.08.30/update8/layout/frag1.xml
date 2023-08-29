@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_na"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        app:itemTextColor="#00ff0000"
+        app:itemIconTint="@drawable/menu_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_editor_absoluteX="8dp"
+        app:layout_editor_absoluteY="600dp"
+        app:menu="@menu/bottom_menu" />
+-->
+
+    <FrameLayout
+        android:id="@+id/main_flame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<!--
+        app:layout_constraintBottom_toTopOf="@+id/bottom_na"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+-->
+
+
+        <ImageView
+            android:id="@+id/page_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/page1" />
+
+        <Button
+            android:id="@+id/btn_ch1"
+            android:background="#00ff0000"
+            android:layout_width="310dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="130dp"
+            android:text="아 섹스 존나 마렵다"
+            android:textColor="#00ff0000"/>
+
+        <Button
+            android:id="@+id/btn_pf1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="317dp"
+            android:layout_marginTop="30dp"
+            android:background="#00ff0000"
+            android:text="아 섹스 존나 마렵다"
+            android:textColor="#00ff0000" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
